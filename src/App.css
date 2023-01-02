@@ -1,0 +1,33 @@
+
+ul{
+  list-style-type: none;
+  margin: 0;
+}
+ .pagination {
+  margin-top: 30px; 
+  display: flex;
+  list-style: none;
+  outline: none;
+  justify-content: center;
+ }
+  
+ .pagination>.active>a {
+  background-color: #1e1e26;
+  color: #fff;
+ }
+  
+ .pagination>li>a {
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+ }
+  
+ .pagination>li>a, .pagination>li>span {
+  color: #1e1e26;
+ }
+
+ div[id^="cell-8"]::before{
+  font-weight: bold;
+  content: "View ";
+  cursor: pointer;
+}
